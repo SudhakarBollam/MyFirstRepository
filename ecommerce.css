@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.Home-Sec-bg-continer {
+    margin-top: 100px;
+}
+
+.ecommerce-logo {
+    width: 80px;
+    height: 70px;
+    padding-top: 10px;
+    border-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.category-card-img {
+    height: 55px;
+    width: 90px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+}
+
+.category-card {
+    text-align: center;
+}
+
+.category-name {
+    font-family: Roboto;
+    font-size: 15px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.category-sec {
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.carousel-item-img {
+    height: 260px;
+}
+
+.product-img {
+    height: 190px;
+    width: 170px;
+}
+
+.product-img-app {
+    height: 200px;
+    width: 170px;
+}
+
+.product-desc {
+    text-align: center;
+    padding: 5px;
+}
+
+.Product-name {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.product-card {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Product-price {
+    font-weight: bold;
+}
+
+.Product-sec-container {
+    padding: 20px;
+}
+
+
+#sectionCart {
+    background-color: #E8F5E9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+    display: none;
+}
+
+.cart-bg-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items-sec {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.total-sec-cal {
+    background-color: #C8E6C9;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1,h2,h3 {
+    color: #2E7D32;
+    font-family: Arial, sans-serif;
+}
+
+span {
+    font-weight: bold;
+    color: #1B5E20;
+}
+
+.btn-primary {
+    background-color: #388E3C;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #1B5E20;
+}
